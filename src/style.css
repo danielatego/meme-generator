@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@400;700&display=swap');
+@font-face {
+    font-family: 'impact';
+    src: url(./Impact-Font/impact.ttf);
+}
+.div{
+    width: 550px;
+    height: 550px; 
+}
+.nav{
+    position: relative;
+    width: 550px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+.nav_image{
+    margin-left: 20px;
+}
+.nav_title{
+    width: 140.79px;
+    height: 24px;
+    margin-left: 6.69px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+.nav_subtitle{
+    width: 189px;
+    height: 14px;
+    margin-left: 125.21px ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.form{
+    width: 477px;
+    height: 90px;
+    margin: 36px auto 36px;
+    
+}
+.form_input{
+    display: flex;
+    justify-content: space-between;
+}
+.form_input>div> input{
+    Width: 208px;
+    Height: 35px;
+    padding-right:11px;
+    padding-left: 11px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0D0D0D;
+}
+.button{
+    width: 477px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
