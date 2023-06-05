@@ -1,14 +1,15 @@
 import memei from "./memeData";
-
-
-function meme(){
-
-    function urlselector() {
+import React from "react";
+function Meme(){
+    const [things,setThings]= React.useState([''])
+    
+    function Urlselector() {
         var array = memei.data.memes
         var v = Math.floor((Math.random()*array.length));
         const {url}=array[v];
+        setThings(image=>image = url)
         return(
-            console.log(url)
+            things
             
         )
     }
@@ -24,15 +25,17 @@ function meme(){
                 </div>
             </div>
             <div>
-                <button onClick={urlselector} className="button" type="submit">
+                <button onClick={Urlselector} className="button" type="submit">
                     <span>
                         Get a new meme image  🖼
                     </span>
                 </button>
             </div>
-           
+           <div className="memeImage">
+                <img src={things}alt="" />
+           </div>
         </div>
     )
 }
 
-export default meme;
+export default Meme;
