@@ -83,7 +83,33 @@
     
 }
 .memeImage{
-    width: 477px;
-    height: 268px;
+    position: relative;
+    z-index: 1;
+    width: 500px;
+    height: 380px;
+    object-fit: contain;
     margin-top: 36px;
+}
+.fit{
+    object-fit: cover;
+}
+.memeImage_topText{
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    z-index: 2;
+    color: #FFF;
+    font-size: 32px;
+    font-family: Impact;
+    font-weight: 900;
+}
+.memeImage_bottomText{
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    z-index: 2;
+    color: #FFF;
+    font-size: 32px;
+    font-family: Impact;
+    font-weight: 900;
 }
